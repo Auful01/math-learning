@@ -7,6 +7,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
+## math-learning
+
+Langkah :
+1. git clone https://github.com/Auful01/math-learning
+2. composer install
+3. cp .env.example .env (Sesuaikan database credential)
+5. php artisan key:generate
+6. php artisan migrate
+7. php artisan serve
+8. buka terminal lain, lakukan npm run build && npm run dev
+9. akses url yang diberikan
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
@@ -64,3 +78,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
